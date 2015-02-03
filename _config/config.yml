@@ -1,0 +1,10 @@
+---
+Name: googleanalytics
+After: 'framework/*','cms/*'
+---
+SiteConfig:
+  extensions:
+    - GoogleAnalyticsConfigExtension
+Controller:
+  extensions:
+    - GoogleAnalyticsControllerExtension
